@@ -14,14 +14,30 @@ body {
 
 .bannerpage h1 {
     font-size: 44px;
-    padding-top: 40px;
+    padding-top: 25px;
     text-align: center;
     font-family: 'Song Myung';
+    color: rgba(30, 30, 30, 0.9);
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  top: 75%;
+  color: white;
+  background-color: rgba(30, 30, 30, 0.9);
+  border: 1px solid rgba(30, 30, 30, 0.9);
+  box-shadow: 0px 1px 5px 5px rgb(29, 29, 29);
 }
 
 
 .bannerpage {
-    background-image: url("banner.jpg");
+    background-image: url("/koduta loomade varjupaik/img/banner.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -29,27 +45,31 @@ body {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: #ddd;
     overflow: hidden;
+    box-shadow: 3px 0px 3px 0px gray;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
+
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: gray;
     color: black;
+    box-shadow: 0px 0px 3px 0px gray;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: gray;
+    box-shadow: 0px 0px 3px 3px gray;
     color: white;
   }
   
@@ -78,5 +98,3 @@ body {
       text-align: left;
     }
   }
-
-
